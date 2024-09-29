@@ -1,4 +1,4 @@
-class Student:
+ï»¿class Student:
     def __init__(self, name, surname, gender):
         self.name = name
         self.surname = surname
@@ -20,7 +20,7 @@ class Mentor:
             else:
                 student.grades[course] = [grade]
         else:
-            return 'Îøèáêà'
+            return 'ĞÑˆĞ¸Ğ±ĞºĞ°'
 
 class Lecturer(Mentor):
     pass
